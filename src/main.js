@@ -7,6 +7,7 @@ import App from './App'
 import router from './router'
 
 import('vuetify/dist/vuetify.min.css')
+import('@/assets/css/vuetifyFont.css')
 
 window._ = require('lodash')
 
