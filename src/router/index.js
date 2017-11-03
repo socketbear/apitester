@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/page/Main'
+import HelloWorld from '@/components/HelloWorld'
+import SandBox from '@/components/SandBox'
 
 Vue.use(Router)
 
@@ -8,8 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Main',
-      component: Main
+      name: 'Hello',
+      component: HelloWorld
+    },
+    {
+      path: '/sand',
+      name: 'SandBox',
+      component: SandBox
     }
   ]
 })
